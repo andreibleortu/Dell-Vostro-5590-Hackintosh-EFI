@@ -1,5 +1,5 @@
 # Dell-Vostro-5590-Hackintosh-EFI
-EFI folder for OpenCore 0.7.5 and macOS Big Sur compatible with the Dell Vostro 5590 and 5490. Supposedly works with Inspiron 5490/5498/5590/5598.
+EFI folder for OpenCore 0.7.7 and macOS Big Sur compatible with the Dell Vostro 5590 and 5490. Supposedly works with Inspiron 5490/5498/5590/5598.
 
 ### Specs:
 Type | Details
