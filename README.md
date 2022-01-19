@@ -17,7 +17,7 @@ NVMe | 512GB Samsung PM991 - Windows
 KB | Built-in Standard PS2 Keyboard
 TP | Built-in I2C HID Trackpad
 SMBIOS | MacBookPro16,4
-Bootloader | OpenCore 0.7.5
+Bootloader | OpenCore 0.7.7
 
 ### What works and What doesn't or WIP:
 - [x] Intel UHD 620 iGPU eDP Output (with Backlight)
