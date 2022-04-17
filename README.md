@@ -1,5 +1,5 @@
 # Dell-Vostro-5590-Hackintosh-EFI
-EFI folder for OpenCore 0.7.9 and macOS Big Sur compatible with the Dell Vostro 5590 and 5490. Supposedly works with Inspiron 5490/5498/5590/5598.
+EFI folder for OpenCore 0.7.9 and macOS Monterey compatible with the Dell Vostro 5590 and 5490. Supposedly works with Inspiron 5490/5498/5590/5598.
 
 ### Specs:
 Type | Details
@@ -33,7 +33,7 @@ Bootloader | OpenCore 0.7.9
 - [x] USB Cardreader
 - [x] ACPI Battery
 - [x] NVRAM
-- [x] Wi-Fi (on Big Sur)
+- [x] Wi-Fi (on Monterey)
 
 - [ ] DisplayPort over Type-C (did not check)
 - [ ] MX250 dGPU (Not supported)
