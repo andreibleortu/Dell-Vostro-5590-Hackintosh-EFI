@@ -22,20 +22,14 @@
 	<string>1.0</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>MacBookAir9,1-XHC</key>
+		<key>MacBookPro15,2-XHC</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
+			<string>com.apple.driver.AppleUSBMergeNub</string>
 			<key>IOClass</key>
-			<string>AppleUSBHostMergeProperties</string>
-			<key>IOParentMatch</key>
-			<dict>
-				<key>IOPropertyMatch</key>
-				<dict>
-					<key>pcidebug</key>
-					<string>0:20:0</string>
-				</dict>
-			</dict>
+			<string>AppleUSBMergeNub</string>
+			<key>IONameMatch</key>
+			<string>XHC</string>
 			<key>IOProviderClass</key>
 			<string>AppleUSBXHCIPCI</string>
 			<key>IOProviderMergeProperties</key>
@@ -44,7 +38,7 @@
 				<true/>
 				<key>port-count</key>
 				<data>
-				EAAAAA==
+				CAAAAA==
 				</data>
 				<key>ports</key>
 				<dict>
@@ -69,22 +63,31 @@
 					<key>HS03</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>0</integer>
 						<key>port</key>
 						<data>
 						AwAAAA==
 						</data>
 					</dict>
-					<key>HS04</key>
+					<key>HS07</key>
 					<dict>
 						<key>UsbConnector</key>
-						<integer>3</integer>
+						<integer>255</integer>
 						<key>port</key>
 						<data>
-						BAAAAA==
+						BQAAAA==
 						</data>
 					</dict>
-					<key>HS05</key>
+					<key>HS10</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						BgAAAA==
+						</data>
+					</dict>
+					<key>SS01</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
@@ -93,46 +96,19 @@
 						BwAAAA==
 						</data>
 					</dict>
-					<key>HS06</key>
-					<dict>
-						<key>#port</key>
-						<data>
-						CgAAAA==
-						</data>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-					</dict>
-					<key>SS01</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						DQAAAA==
-						</data>
-					</dict>
 					<key>SS02</key>
 					<dict>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
 						<data>
-						DgAAAA==
-						</data>
-					</dict>
-					<key>SS03</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						EAAAAA==
+						CAAAAA==
 						</data>
 					</dict>
 				</dict>
 			</dict>
 			<key>model</key>
-			<string>MacBookAir9,1</string>
+			<string>MacBookPro15,2</string>
 		</dict>
 	</dict>
 	<key>OSBundleRequired</key>

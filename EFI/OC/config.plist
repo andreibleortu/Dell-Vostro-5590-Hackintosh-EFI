@@ -56,14 +56,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-PMC.aml</string>
-				<key>Enabled</key>
-				<false/>
-				<key>Path</key>
-				<string>SSDT-PMC.aml</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-PNLF-CFL.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -93,6 +85,14 @@
 				<true/>
 				<key>Path</key>
 				<string>SSDT-SBUS-MCHC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-UIAC.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-UIAC.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -1330,7 +1330,7 @@
 		<key>Automatic</key>
 		<true/>
 		<key>CustomMemory</key>
-		<false/>
+		<true/>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseFeatures</key>
@@ -1353,6 +1353,23 @@
 			<string>FVFC60B6MNHP</string>
 			<key>SystemUUID</key>
 			<string>93A78DA2-B0E6-4A07-872D-2B319AC31224</string>
+		</dict>
+		<key>Memory</key>
+		<dict>
+			<key>DataWidth</key>
+			<integer>0</integer>
+			<key>ErrorCorrection</key>
+			<integer>3</integer>
+			<key>FormFactor</key>
+			<integer>2</integer>
+			<key>MaxCapacity</key>
+			<integer>0</integer>
+			<key>TotalWidth</key>
+			<integer>0</integer>
+			<key>Type</key>
+			<integer>2</integer>
+			<key>TypeDetail</key>
+			<integer>4</integer>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
