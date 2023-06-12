@@ -1,6 +1,6 @@
 # Dell-Vostro-5590-Hackintosh-EFI
 EFI folder for OpenCore 0.7.9 and macOS Monterey compatible with the Dell Vostro 5590 and 5490. Supposedly works with Inspiron 5490/5498/5590/5598.
-
+## I will no longer be developing this project further.
 ### Specs:
 Type | Details
 | -------------- |:----------------------------:|
